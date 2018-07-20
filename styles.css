@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(242, 242, 242, 0.25);
+    width: 90%;
+    max-width: 1440px;
+    margin: 50px 50px;
+}
+
+button {
+    height:200px;
+    width:200px;
+    margin:20px 20px 20px 20px;
+    border:solid 2px;
+    border-radius: 7%;
+    border-color: rgba(38, 38, 38, 0.05);
+    background: no-repeat center; 
+    background-color: rgba(38, 38, 38, 0.1);
+    box-shadow: 7px 7px 5px grey;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;    
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+button:active {background-position: 10px 10px; }
+
+button:hover {
+
+    background-color: #ffffff; /* Gray */
+
+    color: white;
+
+}
+
+#button1 {
+    background-image:url('emby2.png');
+}
+
+#button2 {
+    background-image:url('kodi.png');
+}
+
+#button3 {
+    background-image:url('plex.png');
+}
+
+#button4 {
+    background-image:url('camera.png');
+}
+
+#button5 {
+    background-image:url('homekit.png');
+}
+
+#button6 {
+    background-image:url('cups.png');
+}
+
+#button7 {
+    background-image:url('terminalsrv.png');
+}
+
+#button8 {
+    background-image:url('sledovanitv.png');
+}
+
+#button9 {
+    background-image:url('spotify.png');
+}
+
+#button10 {
+    background-image:url('bulbon.png');
+}
+
+#button11 {
+    background-image:url('bulboff.png');
+}
+
+#button12 {
+    background-image:url('custom.png');
+}
